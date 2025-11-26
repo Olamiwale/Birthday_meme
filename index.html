@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!  🎉</title>
+    <link rel="stylesheet" href="style.css"  >
+   
+</head>
+<body>
+    <div class="header">
+        <h1>🎉 Happy Birthday!🎉</h1>
+        
+        <p>Click each card to reveal a special message</p>
+        
+        <div class="countdown">
+            <div class="countdown-timer" id="countdownTimer"></div>
+        </div>  
+    </div>
+   
+    <div class="cards-container" id="cardsContainer"></div>
+
+    <!-- Background Music -->
+<audio id="bgMusic" loop>
+  <source src="song.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<!-- Music Control Button -->
+<button id="musicToggle" class="music-btn">🔊 Play Music</button>
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>✨ A Year of Legends ✨</h3>
+            
+            <div class="footer-stats">
+                <div class="stat-item">
+                    <div class="stat-number">40</div>
+                    <div class="stat-label">Special Messages</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">365</div>
+                    <div class="stat-label">Days of Glory</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Possibilities</div>
+                </div>
+            </div>
+            
+            <p class="footer-quote">"The best is yet to come. Here's to another year of victories, growth, and unforgettable moments!" 🏆</p>
+        </div>
+    </footer>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
