@@ -1,24 +1,30 @@
+// 🎵 Background Music Control
+const bgMusic = document.getElementById("bgMusic");
+const musicToggle = document.getElementById("musicToggle");
 
+let isPlaying = false;
 
-const bgMusic = document.getElementById("bg-music");
-let musicStarted = false;
-
-document.addEventListener("click", () => {
-  if (!musicStarted) {
-    bgMusic.volume = 0;
-    bgMusic.play();
-    musicStarted = true;
-
-    let fade = setInterval(() => {
-      if (bgMusic.volume < 0.4) {
-        bgMusic.volume += 0.01;
-      } else {
-        clearInterval(fade);
-      }
-    }, 80);
-  }
+// Required for mobile: start after first user interaction
+document.addEventListener("click", function autoStart() {
+  bgMusic.play();
+  isPlaying = true;
+  musicToggle.textContent = "🔈 Pause Music";
+  document.removeEventListener("click", autoStart);
 });
 
+musicToggle.addEventListener("click", function (e) {
+  e.stopPropagation();
+
+  if (isPlaying) {
+    bgMusic.pause();
+    musicToggle.textContent = "🔊 Play Music";
+  } else {
+    bgMusic.play();
+    musicToggle.textContent = "🔈 Pause Music";
+  }
+
+  isPlaying = !isPlaying;
+});
 
         
         
