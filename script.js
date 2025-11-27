@@ -80,13 +80,11 @@ musicToggle.addEventListener("click", function (e) {
           { image: "./images/3.jpg",
             message: "You are proof that hard work, faith, and love create a beautiful life. Incredible woman!" },
         
-          { image: "./images/44.png",
-            message: "40 years of impact, purpose, and divine favor. May the next chapter be even greater." },
+          
         
-          { image: "./images/5.jpg",message: "You are not just aging — you are increasing in wisdom, grace, and beauty." },
+          { image: "./images/125.jpg",message: "You are not just aging — you are increasing in wisdom, grace, and beauty." },
         
-          { image:"./images/45.jpg",
-            message: "Your life is a testimony of what God can do through a devoted heart. 40 looks amazing on you!" },
+         
         
           { image:"./images/7.jpg",
             message: "A virtuous woman, a loving mother, a strong believer — today we celebrate YOU!" },
@@ -117,18 +115,24 @@ musicToggle.addEventListener("click", function (e) {
         
           { image:"./images/16.jpg",
             message: "Your life reflects discipline, faith, and a heart that truly loves God. Happy 40th!" },
+
+
+
         
-          {image:"./images/17.jpg", message: "You make motherhood look powerful, graceful, and sacred. Happy Birthday!" },
+         
+
+
+
         
           {image:"./images/18.jpg", message: "40 years of building, loving, praying, and persevering and you’re just getting started!" },
         
           {image:"./images/19.png", message: "Bible Verse: 'For I know the plans I have for you.' – Jeremiah 29:11 (KJV)" },
         
-          {image:"./images/20.png", message: "May this new decade bring deeper peace, bigger victories, and sweeter testimonies." },
+          {image:"./images/124.jpg", message: "May this new decade bring deeper peace, bigger victories, and sweeter testimonies." },
         
-          {image:"./images/21.jpg", message: "Your hands were made to nurture, to build, and to bless. Woman of purpose!" },
+          {image:"./images/123.jpg", message: "Your hands were made to nurture, to build, and to bless. Woman of purpose!" },
         
-          {image:"./images/22.jpg", message: "Your smile carries hope, your words carry wisdom, and your life carries impact." },
+         
         
           {image:"./images/23.jpg", message: "You are a living reminder that faith and hard work always yield beautiful results." },
         
@@ -137,27 +141,53 @@ musicToggle.addEventListener("click", function (e) {
         
           {image:"./images/25.jpg",
              message: "At 40, you stand as a pillar of strength in your family and a light in your generation." },
+
+
+
+ {image:"./images/129.jpg",  
+          message: "You make motherhood look powerful, graceful, and sacred. Happy Birthday!" },
+
+
+
+
         
           {image:"./images/26.jpg",
              message: "Your journey inspires faith, patience, and unwavering trust in God." },
+
+
+
+
         
           { image:"./images/27.jpg",
-            message: "May God reward every sacrifice, every tear, and every prayer you’ve sown over the years." },
+            message: "May God reward every sacrifice, every tear, and every prayer you’ve sown over the years." }, 
+            
+          {image:"./images/22.jpg", message: "Your smile carries hope, your words carry wisdom, and your life carries impact." },
         
           {image:"./images/28.jpg",
              message: "Happy Birthday to a woman whose beauty flows from the inside out." },
         
           { image:"./images/29.jpg",
             message: "Bible Verse: 'Commit thy works unto the Lord.' – Proverbs 16:3 (KJV)" },
+
+            { image:"./images/37.png",
+            message: "With God all things are possible. He made you possible' – Matthew 19:26 (KJV)" },
+
         
-          { image:"./images/30.jpg",
+          { image:"./images/132.png",
             message: "Your perseverance tells a story of victory — and your best chapters are still ahead." },
+
+            
         
           { image:"./images/31.png",
             message: "You age with grace, lead with wisdom, and love with all your heart." },
         
           { image:"./images/32.png",
             message: "40 is not just a number — it’s a crown of experience, honor, and divine favor." },
+
+
+
+
+
         
           { image:"./images/33.png",
             message: "The Lord is your shepherd; You shall not want. – Psalm 23:1" },
@@ -167,18 +197,32 @@ musicToggle.addEventListener("click", function (e) {
         
           { image:"./images/35.png",
             message: "May your laughter be louder, your peace be deeper, and your faith be stronger than ever." },
+
+
+
+
+
         
-          { image:"./images/36.png",
+          { image:"./images/126.jpg",
             message: "Your life is a sermon without words — and it preaches excellence, faith, and love." },
         
-          { image:"./images/37.png",
-            message: "With God all things are possible. He made you possible' – Matthew 19:26 (KJV)" },
+          
+             { image:"./images/45.jpg",
+            message: "Your life is a testimony of what God can do through a devoted heart. 40 looks amazing on you!" },
         
           { image:"./images/38.png",
             message: "You are living proof that a woman can be gentle and powerful at the same time." },
+
+            { image: "./images/44.png",
+            message: "40 years of impact, purpose, and divine favor. May the next chapter be even greater." },
         
-          { image:"./images/39.png",
-            message: "40 years of God’s faithfulness — and the future is even brighter!" }
+          { image:"./images/127.jpg",
+           
+           
+           
+   message: "40 years of God’s faithfulness — and the future is even brighter!" },
+
+
         ];
         
 
@@ -219,3 +263,8 @@ musicToggle.addEventListener("click", function (e) {
             container.appendChild(card);
         });
  
+
+
+
+
+        
